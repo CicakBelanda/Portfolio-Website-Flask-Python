@@ -1,0 +1,132 @@
+/* Navbar font styling */
+.navbar {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+}
+
+/* Navbar link colors */
+.navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar .nav-link[href^="mailto"]:hover {
+    color: #70e09f;
+}
+
+.navbar .nav-link[href^="mailto"] {
+    color: black;
+}
+
+/* Featured Works Section */
+.featured-works h2,
+.featured-works h5 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    /* color: #333; */
+}
+
+.featured-works p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    color: #666;
+}
+
+.featured-works .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.featured-works .card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+
+/* Resume Button Styles */
+.btn-resume {
+    transition: all 0.3s ease;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.btn-resume:hover {
+    background-color: white;
+    /* color: #dc3545; */
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hero {
+    margin-top: 5rem;
+}
+
+/* Hero Section Fonts */
+.hero h1,
+.hero h2,
+.hero a,
+.about h1,
+.about h2,
+.about a  {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 650;
+}
+
+.hero p,
+.about p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.badge-primary {
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 0;
+    padding: 0.25rem 0.5rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+}
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for buttons */
+    border-radius: 50%; /* Round buttons */
+    width: 50px; /* Increased button size */
+    height: 50px; /* Increased button size */
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+    position: absolute; /* Positioning */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+}
+.carousel-control-prev {
+    left: 10px; /* Position to the left */
+}
+.carousel-control-next {
+    right: 10px; /* Position to the right */
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
